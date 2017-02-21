@@ -83,6 +83,8 @@ h2 {
   background-color: #7A9E9F;
   border: 2px solid orange;
   height: 400px;
+  color: #4F6367;
+  font-weight: 700;
 }
 
 #avatar {
@@ -92,6 +94,25 @@ h2 {
 
 #records-container {
   display: inline-block;
+}
+
+#records-header {
+  font-size: 1.5em;
+  margin: 20px;
+}
+
+table {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+td {
+  border: 1px solid yellow;
+}
+
+.table-r {
+  width: 90px;
+  text-align: right;
 }
 
 .upcoming {
@@ -124,6 +145,7 @@ h2 {
 }
 
 #widgets-header {
+  color: #4F6367;
   font-size: 1.5em;
   margin-left: 40px;
 }
