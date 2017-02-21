@@ -12,7 +12,7 @@ header {
 
 h1 {
   font-size: 1.5em;
-  font-weight: 300; /* perhaps 700? */
+  font-weight: 300;
   padding: 25px;
   text-shadow: 2px 2px gray;
 
@@ -39,4 +39,60 @@ h1 {
 
 h2 {
   margin-top: 5px;
+}
+
+#data-section {
+  border: 2px solid orange;
+}
+
+#article-container {
+  border: 1px solid green;
+  margin: 20px;
+  height: 800px;
+}
+
+.left {
+  float: left;
+  width: 55%;
+}
+
+.right {
+  float: right;
+  width: 45%;
+}
+
+.trackers {
+  background-color: #7A9E9F;
+  border: 2px solid orange;
+  height: 200px;
+}
+
+.records {
+  background-color: #7A9E9F;
+  border: 2px solid orange;
+  height: 400px;
+}
+
+.upcoming {
+  background-color: gray;
+  border: 2px solid red;
+  height: 450px;
+}
+
+.widgets {
+  background-color: #B8D8D8;
+  border: 2px solid red;
+  height: 150px;
+}
+
+footer {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+
+  footer {
+    display: block;
+  }
+
 }
