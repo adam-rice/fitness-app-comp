@@ -11,20 +11,32 @@ header {
 }
 
 h1 {
-  border: 1px solid pink;
   font-size: 1.5em;
   font-weight: 300; /* perhaps 700? */
   padding: 25px;
+  text-shadow: 2px 2px gray;
+
 }
 
 #calendar {
-  border: 1px solid red;
   display: flex;
   flex-direction: row;
   width: 100%;
 }
 
 .calendar-day {
-  border: 1px solid green;
+  background-color: #4F6367;
+  border: 2px solid gray;
+  color: gray;
+  height: 65px;
   flex-grow: 1;
+}
+
+.active {
+  background-color: #EEF5DB;
+  color: #4F6367;
+}
+
+h2 {
+  margin-top: 5px;
 }
