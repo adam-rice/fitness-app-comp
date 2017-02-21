@@ -98,12 +98,34 @@ h2 {
   background-color: gray;
   border: 2px solid red;
   height: 450px;
+  text-align: center;
+}
+
+#upcoming-header {
+  font-size: 1.5em;
+  color: #EEF5DB;
+}
+
+.upcoming-card {
+  background-color: #B8D8D8;
+  margin: 20px auto;
+  width: 80%;
+  padding: 10px;
 }
 
 .widgets {
   background-color: #B8D8D8;
   border: 2px solid red;
   height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#widgets-header {
+  font-size: 1.5em;
+  margin-left: 40px;
 }
 
 footer {
