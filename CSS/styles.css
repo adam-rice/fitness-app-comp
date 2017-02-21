@@ -65,12 +65,33 @@ h2 {
   background-color: #7A9E9F;
   border: 2px solid orange;
   height: 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.single-tracker {
+  flex-grow: 1;
+  text-align: center;
+  border: 1px solid pink;
+}
+
+.tracker-icon {
+  margin-top: 10px;
 }
 
 .records {
   background-color: #7A9E9F;
   border: 2px solid orange;
   height: 400px;
+}
+
+#avatar {
+  height: 100%;
+  display: inline-block;
+}
+
+#records-container {
+  display: inline-block;
 }
 
 .upcoming {
