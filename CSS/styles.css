@@ -1,6 +1,30 @@
+/* #B8D8D8 #7A9E9F #4F6367 #EEF5DB #FE5F55 */
+
 body {
-  background-color: #FE5F55;
   font-family: 'Open Sans', sans-serif;
+  height: 100%;
 }
 
-/* #B8D8D8 #7A9E9F #4F6367 #EEF5DB #FE5F55 */
+header {
+  background-color: #7A9E9F;
+  text-align: center;
+}
+
+h1 {
+  border: 1px solid pink;
+  font-size: 1.5em;
+  font-weight: 300; /* perhaps 700? */
+  padding: 25px;
+}
+
+#calendar {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.calendar-day {
+  border: 1px solid green;
+  flex-grow: 1;
+}
