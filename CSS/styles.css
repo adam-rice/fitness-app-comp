@@ -1,0 +1,245 @@
+/* #B8D8D8 #7A9E9F #4F6367 #EEF5DB #FE5F55 */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  background-color: #EAE9E9;
+}
+
+header {
+  background-color: #7A9E9F;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  padding: 25px;
+  text-shadow: 2px 2px gray;
+
+}
+
+#calendar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.plus {
+  width: 40px;
+  height: 40px;
+}
+
+.calendar-day {
+  background-color: #4F6367;
+  border: 2px solid gray;
+  color: gray;
+  height: 65px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cal-text {
+  margin: 3px;
+}
+
+.active {
+  background-color: #EEF5DB;
+  color: #4F6367;
+}
+
+h2 {
+  margin-top: 5px;
+}
+
+#article-container {
+  margin: 40px;
+}
+
+.left {
+  float: left;
+  width: 55%;
+}
+
+.right {
+  float: right;
+  width: 45%;
+}
+
+.trackers {
+  background-color: #7A9E9F;
+  height: 200px;
+  display: flex;
+  margin: 0 20px 25px 0;
+}
+
+.tracker-space {
+  margin: 5px;
+}
+
+.single-tracker {
+  flex-grow: 1;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.tracker-icon {
+  margin-top: 10px;
+}
+
+.records {
+  background-color: #7A9E9F;
+  height: 400px;
+  color: #4F6367;
+  margin: 0 20px 10px 0;
+  display: flex;
+}
+
+.records-mobile {
+  display: none;
+}
+
+#avatar {
+  height: 100%;
+  display: inline-block;
+  margin: 40px;
+}
+
+.avatar-human {
+  width: 60px;
+}
+
+#records-container {
+  display: inline-block;
+  margin: 45px 0 0 0;
+}
+
+#records-header {
+  font-size: 2.5em;
+}
+
+table {
+  font-size: 1.5em;
+  margin: 25px 0 0 -10px;
+}
+
+tr {
+  height: 50px;
+  font-size: 30px;
+}
+
+.table-r {
+  width: 90px;
+  text-align: right;
+}
+
+.upcoming {
+  background-color: #4F6367;
+  height: 450px;
+  text-align: center;
+  margin: -5px 0 25px 10px;
+}
+
+#upcoming-header {
+  font-size: 2.1em;
+  color: #EEF5DB;
+  padding: 15px 0 0 0;
+}
+
+.upcoming-card {
+  background-color: #B8D8D8;
+  margin: 15px auto;
+  width: 80%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.upcoming-text {
+  font-size: 25px;
+  margin: 3px;
+}
+
+.widgets {
+  background-color: #B8D8D8;
+  height: 150px;
+  margin: 0 0 10px 10px;
+}
+
+.settings-image {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  margin: 25px 0 0 28px;
+}
+
+#widgets-header {
+  color: #4F6367;
+  font-size: 1.5em;
+  margin: -37px 0 0 97px;
+}
+
+footer {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px)  {
+  #article-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .trackers {
+    background-color: #7A9E9F;
+    height: 200px;
+    display: flex;
+    width: 100vw;
+    margin: 0;
+  }
+
+  .plus {
+    margin: 15px;
+  }
+
+  .records {
+    display: none;
+  }
+
+  .records-mobile {
+    display: block;
+  }
+
+  .upcoming {
+    width: 100vw;
+    margin: 0;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #7A9E9F;
+    height: 45px;
+    font-size: 1.5em;
+    align-items: center;
+  }
+
+  .footer-btn {
+    width: 30px;
+    height: 30px;
+    margin: auto 15px;
+  }
+
+  .widgets {
+    display: none;
+  }
+
+  h2 {
+    margin: 0;
+  }
+}
