@@ -10,7 +10,7 @@ Built by [Adam Rice](https://github.com/adam-rice) & [Andrew Crist](https://gith
 ###### Build
 ![screen-grab](https://github.com/adam-rice/fitness-app-comp/blob/master/images/desktop.png)
 
-<kbd><img src="https://github.com/adam-rice/fitness-app-comp/blob/master/images/mobile.png" alt="contact card image" width="200" height="400"></kdb>
+<kbd><img src="https://github.com/adam-rice/fitness-app-comp/blob/master/images/mobile1.png" alt="contact card image" width="250" height="400"></kdb>
 
 ## Approach
 
