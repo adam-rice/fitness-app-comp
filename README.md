@@ -4,10 +4,10 @@
 
 Built by [Adam Rice](https://github.com/adam-rice) & [Andrew Crist](https://github.com/andrewLcrist) at the [Turing School of Software & Design](https://www.turing.io/).
 
---- Designer Comp ---
+###### Designer Comp
 ![screen-grab](https://github.com/adam-rice/fitness-app-comp/blob/master/images/designer-comp.png)
 
---- Build ---
+###### Build
 ![screen-grab](https://github.com/adam-rice/fitness-app-comp/blob/master/images/desktop.png)
 
 <kbd><img src="https://github.com/adam-rice/fitness-app-comp/blob/master/images/mobile.png" alt="contact card image" width="200" height="400"></kdb>
