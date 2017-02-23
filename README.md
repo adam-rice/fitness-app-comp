@@ -14,7 +14,7 @@ Built by [Adam Rice](https://github.com/adam-rice) & [Andrew Crist](https://gith
 
 ## Approach
 
-The approach taken by the build team(Adam & Andrew) for this project was focused on collaboration. The initial structure was completed by Adam, where he decided to create five primary sections including the header, trackers, records, upcoming, and widgets sections. The header would include the calendar as this element seemed to define the top of the page. As often as possible aspects of the application would be put in to their own section or div via classes or ids to allow the build team the ability to manipulate elements as they saw fit.
+The approach taken by the build team(Adam & Andrew) for this project was focused on collaboration. The initial structure was completed by Adam, where he decided to create five primary sections including the header, trackers, records, upcoming, and widgets sections. The header would include the calendar, as this element seemed to define the top of the page. As often as possible aspects of the application would be put in to their own section or div, with appropriate class or id labeling, to allow the build team the ability to manipulate elements as they saw fit.
 
 Andrew was able to use png files for the rendering of the various icon or avatar images. Andrew also gave the application refinement by breaking the four sections of the body apart with margins. A media query was placed at a point that made sense in regards to the interactions between the four primary sections. The main goal of the build team throughout this process was to explore possibilities and use critical thinking to refactor their code at every opportunity.
 
@@ -27,7 +27,7 @@ Design Team Reference/Inspiration:
 * [http://imgur.com/A5Ds85k](http://imgur.com/A5Ds85k)
 * [http://imgur.com/uFM5xQk](http://imgur.com/uFM5xQk)
 
-Target User:
+## Target User:
 Age: 36 Occupation: Financial Advisor Status: Married   
 Location: Denver Archetype:  The Connector
 ####Goals     
@@ -51,6 +51,6 @@ Wants to see the data in as few clicks as possible. He wants easy input of new w
 **Have I met my goals?**  This is answered by the green status of the completed circles around his top 3 fitness goals.  
 **What's next on the agenda?**  This is large and prominent right when you open the app.
 
-## Final Comps
+## Final Compositions Built in Sketch
 
 [View](http://imgur.com/tAoo4Hw)
